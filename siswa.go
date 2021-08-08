@@ -1,8 +1,8 @@
 package services
 
-//jika nilai <= 40 maka nilainya C
+//jika nilai x <= 40 maka nilainya C
 //jika nilai 40 < x <= 70 maka nilai B
-//jika nilai >70 maka nilainya A
+//jika nilai x >70 maka nilainya A
 
 func Nilai(x int) string {
 	if x <= 40 {
